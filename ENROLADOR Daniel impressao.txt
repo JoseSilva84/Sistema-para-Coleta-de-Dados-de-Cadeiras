@@ -1,0 +1,13 @@
+
+---------------------------------------------------------
+Data: quinta-feira, 05 de setembro de 2024 09:21
+---------------------------------------------------------
+Enrolador: Daniel
+Objeto: Veneza
+Quantidade: 24
+Valor unitário: R$ 8.00
+Valor Total: R$ 192.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

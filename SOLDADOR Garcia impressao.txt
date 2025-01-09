@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: quarta-feira, 30 de outubro de 2024 14:15
+---------------------------------------------------------
+Soldador: Garcia
+Objeto: Veneza
+Quantidade: 100
+Valor unitário: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quarta-feira, 30 de outubro de 2024 18:42
+---------------------------------------------------------
+Soldador: Garcia
+Objeto: Banqueta
+Quantidade: 40
+Valor unitário: R$ 1.00
+Valor Total: R$ 40.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+

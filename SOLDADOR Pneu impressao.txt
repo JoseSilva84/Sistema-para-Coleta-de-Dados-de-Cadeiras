@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: segunda-feira, 16 de setembro de 2024 20:10
+---------------------------------------------------------
+Soldador: Pneu
+Objeto: Veneza
+Quantidade: 48
+Valor unit·rio: R$ 1.50
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 21:09
+---------------------------------------------------------
+Soldador: Pneu
+Objeto: Veneza
+Quantidade: 60
+Valor unit√°rio: R$ 1.50
+Valor Total: R$ 90.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+

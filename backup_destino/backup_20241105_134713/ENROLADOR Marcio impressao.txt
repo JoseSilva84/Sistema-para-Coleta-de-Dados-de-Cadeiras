@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 09:08
+---------------------------------------------------------
+Enrolador: Marcio
+Objeto: Veneza
+Quantidade: 16
+Valor unitário: R$ 8.00
+Valor Total: R$ 128.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 09:14
+---------------------------------------------------------
+Enrolador: Marcio
+Objeto: Veneza
+Quantidade: 16
+Valor unitário: R$ 8.00
+Valor Total: R$ 128.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

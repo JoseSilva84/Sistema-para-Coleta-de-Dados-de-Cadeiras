@@ -1,0 +1,39 @@
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 17 de setembro de 2024 11:17
+---------------------------------------------------------
+Soldador: Vé
+Objeto: Veneza
+Quantidade: 60
+Valor unitário: R$ 1.50
+Valor Total: R$ 90.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 17 de setembro de 2024 11:49
+---------------------------------------------------------
+Soldador: Vé
+Objeto: Veneza
+Quantidade: 72
+Valor unitário: R$ 1.50
+Valor Total: R$ 108.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 17 de setembro de 2024 12:51
+---------------------------------------------------------
+Soldador: Vé
+Objeto: Letícia
+Quantidade: 24
+Valor unitário: R$ 1.50
+Valor Total: R$ 36.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+

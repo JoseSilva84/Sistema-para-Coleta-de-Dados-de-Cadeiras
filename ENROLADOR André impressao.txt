@@ -1,0 +1,91 @@
+
+---------------------------------------------------------
+Data: domingo, 15 de setembro de 2024 21:21
+---------------------------------------------------------
+Enrolador: André
+Objeto: Veneza
+Quantidade: 20
+Valor unitário: R$ 8.00
+Valor Total: R$ 160.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: sÃ¡bado, 05 de outubro de 2024 10:17
+---------------------------------------------------------
+Enrolador: André
+Objeto: Veneza
+Quantidade: 40
+Valor unitário: R$ 8.00
+Valor Total: R$ 320.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: segunda-feira, 14 de outubro de 2024 17:57
+---------------------------------------------------------
+Enrolador: André
+Objeto: Cadeirapreguiçosa
+Quantidade: 12
+Valor unitário: R$ 3.00
+Valor Total: R$ 36.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 17 de outubro de 2024 14:24
+---------------------------------------------------------
+Enrolador: André
+Objeto: Veneza
+Quantidade: 24
+Valor unitário: R$ 8.50
+Valor Total: R$ 204.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 09:04
+---------------------------------------------------------
+Enrolador: André
+Objeto: Veneza
+Quantidade: 16
+Valor unitário: R$ 8.00
+Valor Total: R$ 128.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 09:05
+---------------------------------------------------------
+Enrolador: André
+Objeto: Banqueta
+Quantidade: 10
+Valor unitário: R$ 6.00
+Valor Total: R$ 60.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 14:50
+---------------------------------------------------------
+Enrolador: André
+Objeto: Veneza
+Quantidade: 48
+Valor unitário: R$ 8.00
+Valor Total: R$ 384.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

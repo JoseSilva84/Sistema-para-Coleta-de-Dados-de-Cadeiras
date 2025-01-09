@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: quinta-feira, 05 de setembro de 2024 11:22
+---------------------------------------------------------
+Enrolador: Francisco
+Objeto: Banqueta
+Quantidade: 20
+Valor unitário: R$ 6.00
+Valor Total: R$ 120.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 05 de setembro de 2024 11:22
+---------------------------------------------------------
+Enrolador: Francisco
+Objeto: Veneza
+Quantidade: 40
+Valor unitário: R$ 8.00
+Valor Total: R$ 320.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

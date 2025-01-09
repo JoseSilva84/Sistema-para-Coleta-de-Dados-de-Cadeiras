@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: segunda-feira, 02 de setembro de 2024 21:41
+---------------------------------------------------------
+Enrolador: Amaral
+Objeto: Balanço
+Quantidade: 12
+Valor unitário: R$ 8.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 15 de setembro de 2024 21:19
+---------------------------------------------------------
+Enrolador: Amaral
+Objeto: Banqueta
+Quantidade: 12
+Valor unitário: R$ 6.00
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

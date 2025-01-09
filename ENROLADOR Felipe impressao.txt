@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: quinta-feira, 05 de setembro de 2024 08:24
+---------------------------------------------------------
+Enrolador: Felipe
+Objeto: Veneza
+Quantidade: 12
+Valor unitário: R$ 8.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: sexta-feira, 20 de setembro de 2024 11:13
+---------------------------------------------------------
+Enrolador: Felipe
+Objeto: Cluxo
+Quantidade: 25
+Valor unitário: R$ 4.00
+Valor Total: R$ 100.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

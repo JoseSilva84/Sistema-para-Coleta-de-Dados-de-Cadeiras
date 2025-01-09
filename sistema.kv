@@ -1,0 +1,1405 @@
+ScreenManager:
+    Login:
+    Loginsenha:
+    Logincadastro:
+    FirstScreen:
+    SecondScreen:
+    TerceiraTela:
+    DadosEnroladores:
+    DadosSoldadores:
+    DadosEntrega:
+    DadosEntregar:
+    Vale:
+    Pesquisar:
+    Pesquisasol:
+    Pesquisavale:
+    EntregaEnrolador:
+    Pesquisaentrega:
+    OrcamentoEnrolador:
+    Backup:
+
+<Login>:
+    id: logininicial
+    name: "logininicial"
+    MDBoxLayout:
+        orientation: 'horizontal'
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        spacing: dp(30)  # Espaçamento entre os botões e a imagem
+        padding: dp(40)  # Padding para dar um espaço interno no layout
+
+        Image:
+            source: "entrar.png"
+            size_hint_y: None  # Desativa o ajuste automático de altura
+            size_hint_x: None  # Desativa o ajuste automático de largura
+            width: dp(550)  # Defina a largura da imagem
+            height: dp(550)  # Defina a altura da imagem
+            allow_stretch: True  # Permite que a imagem se expanda para o tamanho definido
+
+        MDBoxLayout:
+            orientation: 'vertical'
+            size_hint_x: 0.4  # Ajuste para os botões ocuparem o restante do espaço
+            size_hint_y: None  # Permite o ajuste da altura dos botões
+            height: self.minimum_height  # Ajusta a altura conforme o conteúdo
+            pos_hint: {"center_y": 0.7}  # Centraliza os botões no eixo vertical
+            spacing: dp(10)  # Espaçamento entre os botões e a imagem
+            MDLabel:
+                text: "SEJA BEM-VINDO AO SISTEMA"
+                height: self.texture_size[1]
+                font_name: "assets/fonts/cambria.ttc"
+                theme_text_color: "Custom"
+                text_color: 0.21, 0.35, 0.38, 1
+                size_hint_y: None
+                pos_hint: {"center_x": -0.1, "center_y": 0.5}
+                halign: "center"
+                font_style: 'H3'
+                bold: True
+
+            MDCard:
+                elevation: 1
+                radius: [10,]
+                size_hint: None, None
+                height: dp(100)
+                width: dp(300)
+                pos_hint: {"center_x": -0.1, "center_y": 0.4}  # Levanta o MDCard um pouco mais
+                md_bg_color: [0.21, 0.35, 0.38, 0.8]
+                spacing: dp(10)  # Espaçamento entre os botões e a imagem
+                padding: dp(40)
+
+                MDRaisedButton:
+                    id: entrar
+                    text: "[b]ENTRAR[/b]"
+                    markup: True
+                    size_hint: None, None
+                    size: dp(120), dp(48)
+                    md_bg_color: app.normal_color
+                    pos_hint: {"center_x": -0.1, "center_y": 0.4}
+                    on_release:
+                        root.manager.transition.direction = 'right'
+                        app.root.current = "loginsenha"
+
+                MDRaisedButton:
+                    id: cadastrar
+                    text: "[b]CADASTRAR-SE[/b]"
+                    markup: True
+                    size_hint: None, None
+                    size: dp(120), dp(48)
+                    pos_hint: {"center_x": -0.1, "center_y": 0.4}
+                    on_release:
+                        root.manager.transition.direction = 'up'
+                        app.root.current = "logincadastro"
+<Loginsenha>:
+    id: loginsenha
+    name: "loginsenha"
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}  # Levanta o layout um pouco
+        padding: dp(10)  # Adiciona padding para ajustar o espaço
+        spacing: dp(5)  # Espaçamento entre os elementos
+    MDFloatLayout:
+        # MDIconButton:
+        #     id: setavoltar
+        #     icon: "arrow-left"
+        #     user_font_size: "32sp"  # Tamanho da seta
+        #     pos_hint: {"center_x": 0.05, "top": 1}  # Posição na parte superior esquerda
+        #     on_release: app.root.current = "logininicial"  # Ação ao clicar na seta
+        #     tooltip_text: "Voltar"  # Texto exibido ao passar o mouse
+
+        Image:
+            source: "skinlogin.png"
+            pos_hint: {"center_x": 0.5, "center_y": 0.7}
+            size_hint: .2, .2
+
+        MDCard:
+            elevation: 1
+            radius: [10,]
+            size_hint: None, None
+            height: dp(250)
+            width: dp(250)
+            pos_hint: {"center_x": 0.5, "center_y": 0.4}  # Levanta o MDCard um pouco mais
+            md_bg_color: [1.00, 0.93, 0.74]
+
+            MDBoxLayout:
+                orientation: 'vertical'
+                padding: dp(20)
+                spacing: dp(10)
+                pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+                MDLabel:
+                    text: "LOGIN"
+                    halign: "center"
+                    font_style: 'H6'
+                    bold: True
+
+                MDTextField:
+                    id: usuario
+                    font_size: 18
+                    size_hint_x: 0.9
+                    hint_text: 'Usuário'
+                    pos_hint: {'center_x': 0.5}
+                    icon_right: 'mdiAccount'
+                    icon_right_color: app.theme_cls.primary_color
+                    helper_text: 'Digite o nome de usuário'
+                    helper_text_mode: "on_focus"
+                    helper_font_size: 0.19
+                    multiline: False
+
+                MDTextField:
+                    id: senha
+                    font_size: 18
+                    size_hint_x: 0.9
+                    hint_text: 'Senha'
+                    pos_hint: {'center_x': 0.5}
+                    password: app.is_password_hidden
+                    icon_right: "eye-off" if app.is_password_hidden else "eye" 
+                    icon_right_color: app.theme_cls.primary_color
+                    on_icon_right: app.toggle_password_visibility()  # Ação ao clicar no ícone
+                    helper_text: 'Digite a senha'
+                    helper_text_mode: "on_focus"
+                    helper_font_size: 0.19
+                    multiline: False
+
+                MDRaisedButton:
+                    id: cadastrar2
+                    text: "Entrar"
+                    size_hint: None, None
+                    size: dp(200), dp(40)
+                    pos_hint: {"center_x": 0.5}
+                    on_release:
+                        root.manager.transition.direction = 'up'
+                        app.loginentrada()
+<Logincadastro>:
+    id: logincadastro
+    name: "logincadastro"
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}  # Levanta o layout um pouco
+        padding: dp(10)  # Adiciona padding para ajustar o espaço
+        spacing: dp(5)  # Espaçamento entre os elementos
+    MDFloatLayout:
+        MDIconButton:
+            id: setavoltar2
+            icon: "arrow-left"
+            user_font_size: "32sp"  # Tamanho da seta
+            pos_hint: {"center_x": 0.05, "top": 1}  # Posição na parte superior esquerda
+            on_release: app.root.current = "logininicial"  # Ação ao clicar na seta
+            tooltip_text: "Voltar"  # Texto exibido ao passar o mouse
+
+        Image:
+            source: "novologin.png"
+            pos_hint: {"center_x": 0.5, "center_y": 0.8}
+            size_hint: .2, .2
+
+        MDCard:
+            elevation: 1
+            radius: [10,]
+            size_hint: None, None
+            height: dp(350)
+            width: dp(350)
+            pos_hint: {"center_x": 0.5, "center_y": 0.4}  # Levanta o MDCard um pouco mais
+            md_bg_color: [1.00, 0.93, 0.74]
+
+            MDBoxLayout:
+                orientation: 'vertical'
+                padding: dp(20)
+                spacing: dp(10)
+                pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+                MDLabel:
+                    text: "NOVO LOGIN"
+                    halign: "center"
+                    font_style: 'H6'
+                    bold: True
+
+                MDTextField:
+                    id: usuario2
+                    font_size: 18
+                    size_hint_x: 0.9
+                    hint_text: 'Novo Usuário'
+                    pos_hint: {'center_x': 0.5}
+                    icon_right: 'mdiAccount'
+                    icon_right_color: app.theme_cls.primary_color
+                    helper_text: 'Digite o nome de usuário'
+                    helper_text_mode: "on_focus"
+                    helper_font_size: 0.19
+                    multiline: False
+
+                MDTextField:
+                    id: senhateste
+                    font_size: 18
+                    size_hint_x: 0.9
+                    hint_text: 'Nova Senha'
+                    pos_hint: {'center_x': 0.5}
+                    password: app.is_password_hidden
+                    icon_right: "eye-off" if app.is_password_hidden else "eye" 
+                    icon_right_color: app.theme_cls.primary_color
+                    on_icon_right: app.toggle_password_visibility()  # Ação ao clicar no ícone
+                    helper_text: 'Digite a senha'
+                    helper_text_mode: "on_focus"
+                    helper_font_size: 0.19
+                    multiline: False
+                MDTextField:
+                    id: senhaconfirmada
+                    font_size: 18
+                    size_hint_x: 0.9
+                    hint_text: 'Confirmar Senha'
+                    pos_hint: {'center_x': 0.5}
+                    password: app.is_password_hidden
+                    icon_right: "eye-off" if app.is_password_hidden else "eye" 
+                    icon_right_color: app.theme_cls.primary_color
+                    on_icon_right: app.toggle_password_visibility()  # Ação ao clicar no ícone
+                    helper_text: 'Digite novamente a senha'
+                    helper_text_mode: "on_focus"
+                    helper_font_size: 0.19
+                    multiline: False
+
+                MDRaisedButton:
+                    id: cadastrar3
+                    text: "Cadastrar"
+                    size_hint: None, None
+                    size: dp(200), dp(40)
+                    pos_hint: {"center_x": 0.5}
+                    on_release:
+                        root.manager.transition.direction = 'up'
+                        app.logincadastrado()
+        
+<FirstScreen>:
+    id: principal
+    name: "principal"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+        ScrollView:
+            do_scroll_y: True
+            do_scroll_x: True
+            bar_width: 20
+            MDBoxLayout:
+                id: dadosgerais
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                padding: dp(5)
+                Image:
+                    source: "bc.png"
+                    size_hint_y: None
+                    size_hint_x: 1
+                    height: dp(170)  # Ajuste o tamanho da imagem conforme necessário
+                    allow_stretch: False
+                    keep_ratio: False
+                MDLabel:
+                    text: app.texto
+                    height: self.texture_size[1]
+                    font_name: "assets/fonts/cambria.ttc"
+                    theme_text_color: "Custom"
+                    text_color: 0.21, 0.35, 0.38, 1
+                    size_hint_y: None
+                    pos_hint: {"center_x": 0.5, "center_y": 0.5}
+                    halign: "center"
+                    font_style: 'H5'
+                    bold: True
+
+                MDLabel:
+                    id: dados_enrol_scroll3
+                    text: root.dados_enrol_scroll_text3
+                    font_name: "assets/fonts/cambriab.ttf"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    pos_hint: {"center_x": 0.5, "center_y": 0.4}
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: dados_enrol_scroll10
+                    text: root.dados_enrol_scroll_text10
+                    font_name: "assets/fonts/cambriab.ttf"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    pos_hint: {"center_x": 0.5, "center_y": 0.5}
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: dados_enrol_scroll4
+                    text: root.dados_enrol_scroll_text4
+                    font_name: "assets/fonts/cambriab.ttf"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    pos_hint: {"center_x": 0.5, "center_y": 0.3}
+                    theme_text_color: "Custom"
+                    text_color: 1, 0, 0, 1
+                    halign: "center"
+                    #bold: True
+                MDLabel:
+                    id: dados_enrol_scroll5
+                    text: root.dados_enrol_scroll_text5
+                    font_name: "assets/fonts/cambriab.ttf"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    pos_hint: {"center_x": 0.5, "center_y": 0.2}
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: dados_enrol_scroll6
+                    text: root.dados_enrol_scroll_text6
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                    halign: "center"
+                MDLabel:
+                    id: dados_enrol_scroll7
+                    text: root.dados_enrol_scroll_text7
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    pos_hint: {"center_x": 0.5, "center_y": 0.0}
+                    halign: "center"
+                MDLabel:
+                    id: dados_enrol_scroll8
+                    text: root.dados_enrol_scroll_text8
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    pos_hint: {"center_x": 0.5, "center_y": -0.1}
+                    halign: "center"
+                MDLabel:
+                    id: dados_enrol_scroll9
+                    text: root.dados_enrol_scroll_text9
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    pos_hint: {"center_x": 0.5, "center_y": -0.2}
+                    halign: "center"
+                MDLabel:
+                    id: dados_enrol_scroll11
+                    text: root.dados_enrol_scroll_text11
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    pos_hint: {"center_x": 0.5, "center_y": -0.2}
+                    halign: "center"
+
+    MDBoxLayout:
+        orientation: 'horizontal'
+        size_hint_y: None
+        height: dp(60)  # Altura fixa para o rodapé
+        padding: [dp(10), dp(10)]  # Espaço ao redor do layout
+        spacing: dp(20)  # Espaçamento entre os botões
+        pos_hint: {"center_x": 0.5}  # Centraliza os botões no layout
+    
+        Widget:
+
+        MDRaisedButton:
+            id: enr1
+            text: "[b]ENROLADORES[/b]"
+            markup: True
+            size_hint_x: None
+            #pos_hint: {"center_x": 0.3, "center_y": 0.5}
+            width: dp(150)
+            md_bg_color: app.normal_color
+            on_release:
+                root.manager.transition.direction = 'right'
+                app.root.current = "segunda"
+
+        MDRaisedButton:
+            id: sold1
+            text: "[b]SOLDADORES[/b]"
+            markup: True
+            size_hint_x: None
+            width: dp(150)
+            on_release:
+                root.manager.transition.direction = 'up'
+                app.root.current = "terceira"
+
+        MDRaisedButton:
+            id: entreg1
+            text: "[b]RECOLHIMENTO DAS CADEIRAS[/b]"
+            markup: True
+            size_hint_x: None
+            width: dp(200)
+            on_release: app.root.current = "entregaenrolador"
+        
+        Widget:
+
+<SecondScreen>:
+    id: segunda
+    name: "segunda"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+        MDFloatLayout:
+            Image:
+                source: "enrolamento.png"
+                pos_hint: {"center_x": 0.5, "center_y": 0.7}
+                size_hint: .7, .7
+                size: 200, 200
+
+        BoxLayout:
+            id: box_enrolador
+            orientation: "vertical"
+            height: dp(56)
+            padding: dp(20)
+            spacing: dp(10)
+
+            MDCard:
+                elevation: 1  # Defina a elevação aqui
+                radius: [10,]  # Arredondar os cantos, opcional
+                size_hint: None, None
+                height: dp(25)
+                width: dp(300)
+                pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                md_bg_color: [0.99, 0.75, 0.03]  # Cor de fundo do Card
+
+                MDLabel:
+                    text: "PRODUÇÃO DOS ENROLADORES"
+                    halign: "center"
+                    font_style: 'H6'
+                    bold: True
+
+            MDTextField:
+                id: enrolador_input
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Enrolador:'.capitalize()
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o nome do enrolador'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDTextField:
+                id: list_objeto
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Objeto:'.capitalize()
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o Objeto'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDTextField:
+                id: qtde_input
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Quantidade:'.capitalize()
+                input_filter: 'int'
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite a quantidade'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDTextField:
+                id: valor_unitario
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Valor:'.capitalize()
+                input_filter: 'float'
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o valor do objeto'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDRaisedButton:
+                id: buttonenrolador
+                text: "Registrar os dados"
+                pos_hint: {"center_x": 0.5}
+                on_release: app.verificar_campos()
+
+<TerceiraTela>:
+    id: terceira
+    name: "terceira"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+        MDFloatLayout:
+            Image:
+                source: "soldador2.png"
+                pos_hint: {"center_x": 0.5, "center_y": 0.7}
+                size_hint: .6, .6
+                size: 300, 300
+
+        BoxLayout:
+            id: box_soldador
+            orientation: "vertical"
+            height: dp(56)
+            padding: dp(20)
+            spacing: dp(10)
+
+            MDCard:
+                elevation: 1  # Defina a elevação aqui
+                radius: [10,]  # Arredondar os cantos, opcional
+                size_hint: None, None
+                height: dp(25)
+                width: dp(300)
+                pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                md_bg_color: [0.99, 0.75, 0.03]  # Cor de fundo do Card
+
+                MDLabel:
+                    text: "PRODUÇÃO DOS SOLDADORES"
+                    halign: "center"
+                    font_style: 'H6'
+                    bold: True
+
+            MDTextField:
+                id: soldador_input
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Soldador:'.capitalize()
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o nome do soldador'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDTextField:
+                id: objeto_soldador
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Objeto:'.capitalize()
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o Objeto'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDTextField:
+                id: qtde_soldador
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Quantidade:'.capitalize()
+                input_filter: 'int'
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite a quantidade'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDTextField:
+                id: vunitario_soldador
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Valor:'.capitalize()
+                input_filter: 'float'
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o valor do objeto'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDRaisedButton:
+                id: buttonsoldador
+                text: "Registrar os dados"
+                pos_hint: {"center_x": 0.5}
+                on_release: app.verificar_campos2()
+
+<DadosEnroladores>:
+    id: dadosenrol
+    name: "dadosenrol"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+        MDFloatLayout:
+            Image:
+                source: "total.png"
+                pos_hint: {"center_x": 0.3, "center_y": 0.6}
+                size_hint: None, None
+                size: 700, 700
+            ScrollView:
+                #do_scroll_x: False
+                MDBoxLayout:
+                    id: dados_enrol
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height
+                    #adaptive_height: True
+                    padding: dp (70)
+                    elevation: 5
+                    MDLabel:
+                        id: dados_enrol_scroll
+                        text: "[b]TOTAL DE CADEIRAS ENROLADAS[/b]"
+                        markup: True
+                        font_size: 25
+                        halign: "center"
+                        size_hint_y: None
+                        size_hint_x: None
+                        height: dp(50)
+                        width: dp(500)
+                        padding: dp (50)
+                        pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                    MDCard:
+                        elevation: 2  # Defina a elevação aqui
+                        radius: [20,]  # Arredondar os cantos, opcional
+                        size_hint: None, None
+                        height: dp(200)
+                        width: dp(530)
+                        pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                        md_bg_color: [0.91, 0.91, 0.91]  # Cor de fundo do Card
+                        MDLabel:
+                            id: dados_enrol_scroll
+                            text: root.dados_enrol_scroll_text
+                            #halign: "center"
+                            #md_bg_color: [0.91, 0.91, 0.91]
+                            font_size: 22
+                            size_hint_y: None
+                            size_hint_x: None
+                            height: dp(200)
+                            width: dp(530)
+                            padding: dp (30)
+                            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+<DadosSoldadores>:
+    id: dadossol
+    name: "dadossol"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+        MDFloatLayout:
+            Image:
+                source: "soldador.png"
+                pos_hint: {"center_x": 0.2, "center_y": 0.6}
+                size_hint: None, None
+                size: 600, 600
+            ScrollView:
+                #do_scroll_x: False
+                MDBoxLayout:
+                    id: dados_sol2
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height
+                    #adaptive_height: True
+                    padding: dp (70)
+                    elevation: 5
+                    MDLabel:
+                        id: dados_enrol_scroll2
+                        text: "[b]TOTAL DE CADEIRAS SOLDADAS[/b]"
+                        markup: True
+                        font_size: 25
+                        halign: "center"
+                        size_hint_y: None
+                        size_hint_x: None
+                        height: dp(50)
+                        width: dp(500)
+                        padding: dp (50)
+                        pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                    MDCard:
+                        elevation: 2  # Defina a elevação aqui
+                        radius: [20,]  # Arredondar os cantos, opcional
+                        size_hint: None, None
+                        height: dp(200)
+                        width: dp(530)
+                        pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                        md_bg_color: [0.91, 0.91, 0.91]  # Cor de fundo do Card
+                        MDLabel:
+                            id: dados_enrol_scroll2
+                            text: root.dados_enrol_scroll_text2
+                            #halign: "center"
+                            #md_bg_color: [0.91, 0.91, 0.91]
+                            font_size: 22
+                            size_hint_y: None
+                            size_hint_x: None
+                            height: dp(200)
+                            width: dp(530)
+                            padding: dp (30)
+                            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+<DadosEntrega>:
+    id: dadosentrega
+    name: "dadosentrega"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+        MDFloatLayout:
+            Image:
+                source: "boneco.png"
+                pos_hint: {"center_x": 0.2, "center_y": 0.6}
+                size_hint: None, None
+                size: 600, 600
+            ScrollView:
+                MDBoxLayout:
+                    id: dados_entrega2
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height
+                    padding: dp (70)
+                    elevation: 5
+                    MDLabel:
+                        id: dados_entregatext
+                        text: "[b]TOTAL DE CADEIRAS RECOLHIDAS[/b]"
+                        markup: True
+                        font_size: 25
+                        halign: "center"
+                        size_hint_y: None
+                        size_hint_x: None
+                        height: dp(50)
+                        width: dp(500)
+                        padding: dp (50)
+                        pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                    MDCard:
+                        elevation: 2  # Defina a elevação aqui
+                        radius: [20,]  # Arredondar os cantos, opcional
+                        size_hint: None, None
+                        height: dp(200)
+                        width: dp(530)
+                        pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                        md_bg_color: [0.91, 0.91, 0.91]  # Cor de fundo do Card
+                        MDLabel:
+                            id: dados_entregatext2
+                            text: root.dados_enrol_scroll_texten
+                            font_size: 22
+                            size_hint_y: None
+                            size_hint_x: None
+                            height: dp(200)
+                            width: dp(530)
+                            padding: dp (30)
+                            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+<DadosEntregar>:
+    id: dadosentregar
+    name: "dadosentregar"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+        MDFloatLayout:
+            Image:
+                source: "boneco2.png"
+                pos_hint: {"center_x": 0.3, "center_y": 0.6}
+                size_hint: None, None
+                size: 600, 600
+            ScrollView:
+                MDBoxLayout:
+                    id: dados_entrega3
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height
+                    padding: dp (70)
+                    elevation: 5
+                    MDLabel:
+                        id: dados_entregatext2
+                        text: "[b]TOTAL DE CADEIRAS A RECOLHER[/b]"
+                        markup: True
+                        font_size: 25
+                        halign: "center"
+                        size_hint_y: None
+                        size_hint_x: None
+                        height: dp(50)
+                        width: dp(500)
+                        padding: dp (50)
+                        pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                    MDCard:
+                        elevation: 2  # Defina a elevação aqui
+                        radius: [20,]  # Arredondar os cantos, opcional
+                        size_hint: None, None
+                        height: dp(200)
+                        width: dp(530)
+                        pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                        md_bg_color: [0.91, 0.91, 0.91]  # Cor de fundo do Card
+                        MDLabel:
+                            id: dados_entregatext3
+                            text: root.dados_enrol_scroll_texten2
+                            font_size: 22
+                            size_hint_y: None
+                            size_hint_x: None
+                            height: dp(200)
+                            width: dp(530)
+                            padding: dp (30)
+                            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+<Vale>:
+    id: vale
+    name: "vale"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+        MDFloatLayout:
+            Image:
+                source: "vale.png"
+                pos_hint: {"center_x": 0.5, "center_y": 0.4}
+                size_hint: .9, .9
+                size: 900, 900
+
+        BoxLayout:
+            id: box_vale
+            orientation: "vertical"
+            height: dp(56)
+            padding: dp(20)
+            spacing: dp(10)
+
+            MDLabel:
+                text: "VALE"
+                halign: "center"
+                font_style: 'H6'
+                bold: True
+                pos_hint: {"center_x": 0.5, "center_y": 0.7}
+
+            MDTextField:
+                id: fun_input
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Funcionário:'.capitalize()
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o nome'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDTextField:
+                id: vtotal_fun
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Valor:'.capitalize()
+                input_filter: 'float'
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o valor do objeto'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDRaisedButton:
+                id: buttonfun
+                text: "Salvar os dados"
+                pos_hint: {"center_x": 0.5}
+                on_release: app.verificar_campos3()
+
+<Pesquisar>:
+    id: pesquisar
+    name: 'pesquisar'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+
+        MDLabel:
+            id: titulo
+            text: "         PESQUISA COM ENROLADORES"
+            bold: True
+            size_hint_x: .5
+            size_hint_y: .1
+            pos_hint: {'center_x':0.6, 'center_y':0.8}
+            #height: self.texture_size[1]
+            #halign: "center"
+
+        MDTextField:
+            id: search_field
+            hint_text: "              Digite o nome para pesquisar"
+            font_size: 18
+            size_hint_x: 0.3
+            pos_hint: {'center_x':0.5, 'center_y':0.6}
+            width:200
+            helper_text_mode: "on_focus"
+            helper_font_size: 0.19
+            multiline: False
+            halign: "center"
+        MDRaisedButton:
+            id: pesquisarenrolador
+            text: "Pesquisar enrolador"
+            pos_hint: {"center_x": 0.5}
+            on_release: app.pesquisar_nome()
+
+        ScrollView:
+            do_scroll_y: True
+            do_scroll_x: True
+            bar_width: 10
+            MDBoxLayout:
+                id: pesquisar_enrol
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                #adaptive_height: True
+                padding: dp(40)
+
+                MDLabel:
+                    id: resultado
+                    text: "Resultado aparecerá aqui"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                MDLabel:
+                    id: valortotal
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: valorvale
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: valorresultado
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: cadeira
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                MDLabel:
+                    id: cadeiraentrega
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                MDLabel:
+                    id: cadeiraentregar
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                Image:
+                    source: "lupa2.png"
+                    pos_hint: {"center_x": 0.2, "center_y": 0.9}
+                    size_hint: None, None
+                    size: 400, 400
+                    padding: dp(10)
+
+<Pesquisasol>:
+    id: pesquisasol
+    name: 'pesquisasol'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+
+        MDLabel:
+            id: titulo2
+            text: "       PESQUISA COM OS SOLDADORES"
+            bold: True
+            size_hint_x: .5
+            size_hint_y: .1
+            pos_hint: {'center_x':0.6, 'center_y':0.8}
+            #height: self.texture_size[1]
+            #halign: "center"
+
+        MDTextField:
+            id: sol_field
+            hint_text: "              Digite o nome para pesquisar"
+            font_size: 18
+            size_hint_x: 0.3
+            pos_hint: {'center_x':0.5, 'center_y':0.6}
+            width:100
+            helper_text_mode: "on_focus"
+            helper_font_size: 0.19
+            multiline: False
+            halign: "center"
+        
+        MDRaisedButton:
+            id: pesquisarsoldador
+            text: "Pesquisar soldador"
+            pos_hint: {"center_x": 0.5}
+            on_release: app.pesquisar_soldador()
+
+        ScrollView:
+            do_scroll_y: True
+            do_scroll_x: True
+            bar_width: 10
+            MDBoxLayout:
+                id: pesquisar_sol
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                #adaptive_height: True
+                padding: dp(40)
+
+                MDLabel:
+                    id: resultadosol
+                    text: "Resultado aparecerá aqui"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                MDLabel:
+                    id: valortotal2
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: valorvalesol
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                    bold: True
+                MDLabel:
+                    id: valorresultadosol
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                    bold: True
+                Image:
+                    source: "lupa2.png"
+                    pos_hint: {"center_x": 0.2, "center_y": 0.9}
+                    size_hint: None, None
+                    size: 400, 400
+                    padding: dp(10)
+<Pesquisavale>:
+    id: pesquisavale
+    name: 'pesquisavale'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+
+        MDLabel:
+            id: titulo
+            text: "                PESQUISA COM VALE"
+            bold: True
+            size_hint_x: .5
+            size_hint_y: .1
+            pos_hint: {'center_x':0.6, 'center_y':0.8}
+            #height: self.texture_size[1]
+            #halign: "center"
+
+        MDTextField:
+            id: vale_field
+            hint_text: "              Digite o nome para pesquisar"
+            font_size: 18
+            size_hint_x: 0.3
+            pos_hint: {'center_x':0.5, 'center_y':0.6}
+            width:200
+            helper_text_mode: "on_focus"
+            helper_font_size: 0.19
+            multiline: False
+            halign: "center"
+        
+        MDRaisedButton:
+            id: pesquisarvale
+            text: "Pesquisar vale"
+            pos_hint: {"center_x": 0.5}
+            on_release: app.pesquisar_vale()
+
+        ScrollView:
+            do_scroll_y: True
+            do_scroll_x: True
+            bar_width: 10
+            MDBoxLayout:
+                id: pesquisar_vale
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                #adaptive_height: True
+                padding: dp(40)
+
+                MDLabel:
+                    id: resultadovale
+                    text: "Resultado aparecerá aqui"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                MDLabel:
+                    id: valortotal3
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                    bold: True
+                Image:
+                    source: "lupa2.png"
+                    pos_hint: {"center_x": 0.2, "center_y": 0.9}
+                    size_hint: None, None
+                    size: 400, 400
+                    padding: dp(10)
+<Pesquisaentrega>:
+    id: pesquisaentrega
+    name: 'pesquisaentrega'
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+
+        MDLabel:
+            id: titulo
+            text: "   PESQUISA DO RECOLHIMENTO DE CADEIRAS"
+            bold: True
+            size_hint_x: .5
+            size_hint_y: .1
+            pos_hint: {'center_x':0.6, 'center_y':0.8}
+            #height: self.texture_size[1]
+            #halign: "center"
+
+        MDTextField:
+            id: entrega_field
+            hint_text: "              Digite o nome para pesquisar"
+            font_size: 18
+            size_hint_x: 0.3
+            pos_hint: {'center_x':0.5, 'center_y':0.6}
+            width:200
+            helper_text_mode: "on_focus"
+            helper_font_size: 0.19
+            multiline: False
+            halign: "center"
+        
+        MDRaisedButton:
+            id: pesquisarentregar
+            text: "Pesquisar recolhimento"
+            pos_hint: {"center_x": 0.5}
+            on_release: app.pesquisar_entrega()
+
+        ScrollView:
+            do_scroll_y: True
+            do_scroll_x: True
+            bar_width: 10
+            MDBoxLayout:
+                id: pesquisar_entrega
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                #adaptive_height: True
+                padding: dp(40)
+
+                MDLabel:
+                    id: resultadoentrega
+                    text: "Resultado aparecerá aqui"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                MDLabel:
+                    id: valortotal4
+                    text: ""
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                    halign: "center"
+                Image:
+                    source: "lupa2.png"
+                    pos_hint: {"center_x": 0.2, "center_y": 0.9}
+                    size_hint: None, None
+                    size: 400, 400
+                    padding: dp(10)
+
+<EntregaEnrolador>:
+    id: entregaenrolador
+    name: "entregaenrolador"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+        MDTopAppBar:
+            title: "SISTEMA ART & FIBRAS CADEIRAS"
+            right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+            left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+            elevation: 2
+        MDFloatLayout:
+            Image:
+                source: "mesa.png"
+                pos_hint: {"center_x": 0.5, "center_y": 0.5}
+                size_hint: .9, .9
+                size: 430, 430
+
+        BoxLayout:
+            id: box_entregaenrol
+            orientation: "vertical"
+            height: dp(56)
+            padding: dp(20)
+            spacing: dp(10)
+
+            MDCard:
+                elevation: 1  # Defina a elevação aqui
+                radius: [10,]  # Arredondar os cantos, opcional
+                size_hint: None, None
+                height: dp(25)
+                width: dp(310)
+                pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                md_bg_color: [0.99, 0.75, 0.03]  # Cor de fundo do Card
+
+                MDLabel:
+                    text: "RECOLHIMENTO DAS CADEIRAS"
+                    halign: "center"
+                    font_style: 'H6'
+                    bold: True
+
+            MDTextField:
+                id: entrega_enrol
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Enrolador:'.capitalize()
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o nome do enrolador'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDTextField:
+                id: list_entrega
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Objeto:'.capitalize()
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite o Objeto'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDTextField:
+                id: qtde_entrega
+                font_size: 18
+                size_hint_x: 0.5
+                hint_text: 'Quantidade:'.capitalize()
+                input_filter: 'int'
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                icon_right: 'mdiAccount'
+                icon_right_color: app.theme_cls.primary_color
+                width:200
+                helper_text: 'Digite a quantidade'
+                helper_text_mode: "on_focus"
+                helper_font_size: 0.19
+                multiline: False
+            MDRaisedButton:
+                id: buttonentrega
+                text: "Registrar os dados"
+                pos_hint: {"center_x": 0.5}
+                on_release: app.verificar_campos4()
+
+<OrcamentoEnrolador>:
+    id: orcamentoenrolador
+    name: "orcamentoenrolador"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+    MDTopAppBar:
+        title: "SISTEMA ART & FIBRAS CADEIRAS"
+        right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+        left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+        elevation: 2
+        pos_hint: {"top": 1}
+
+    MDBoxLayout:
+        orientation: 'vertical'
+        size_hint: (1, 1)
+        padding: dp(10)
+        spacing: dp(10)
+
+        MDLabel:
+            id: dados_enrol_scroll15
+            text: root.dados_enrol_scroll_text15
+            font_name: "assets/fonts/cambriab.ttf"
+            size_hint_y: None
+            height: self.texture_size[1]
+            pos_hint: {"center_x": 0.7}
+            #halign: "letf"
+            bold: True
+
+<Backup>:
+    id: backup
+    name: "backup"
+    MDBoxLayout:
+        orientation: "vertical"
+        md_bg_color: 1.00, 1.00, 0.80, 1
+    MDTopAppBar:
+        title: "SISTEMA ART & FIBRAS CADEIRAS"
+        right_action_items: [["calendar", lambda x: app.show_data_picker()], ["menu", lambda x: app.open_menu(x)], ["close", lambda x: app.sair_programa()]]
+        left_action_items: [["home", lambda x: app.change_screen("principal")], ["calculator", lambda x: app.abrir_calculadora()]]
+        elevation: 2
+        pos_hint: {"top": 1}
+
+    MDBoxLayout:
+        orientation: 'vertical'
+        MDBoxLayout:
+            orientation: 'horizontal'
+
+            MDProgressBar:
+                id: progress
+                value: 0
+                max: 100
+                pos_hint: {"center_x": .5}
+                size_hint_x: 0.05
+                size_hint_y: 0.05
+                # height: 1
+                md_bg_color: app.theme_cls.primary_color
+                color: 0, 1, 0, 1
+
+        MDRaisedButton:
+            id: backup_botao
+            text: "[b]Iniciar Backup[/b]"
+            markup: True
+            pos_hint: {"center_x": .5}
+            on_release: app.iniciar_backup()
+        MDRaisedButton:
+            id: backup_restaurar
+            text: "[b]Restaurar Backup[/b]"
+            markup: True
+            pos_hint: {"center_x": .5}
+            on_release: app.realizar_restauracao()

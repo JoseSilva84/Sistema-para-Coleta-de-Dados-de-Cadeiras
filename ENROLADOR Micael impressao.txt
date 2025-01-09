@@ -1,0 +1,13 @@
+
+---------------------------------------------------------
+Data: quinta-feira, 05 de setembro de 2024 09:08
+---------------------------------------------------------
+Enrolador: Micael
+Objeto: Banqueta
+Quantidade: 20
+Valor unitário: R$ 6.00
+Valor Total: R$ 120.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

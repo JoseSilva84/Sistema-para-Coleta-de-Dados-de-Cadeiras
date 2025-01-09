@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: segunda-feira, 30 de setembro de 2024 13:12
+---------------------------------------------------------
+Enrolador: Noá
+Objeto: Veneza
+Quantidade: 52
+Valor unitário: R$ 8.00
+Valor Total: R$ 416.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:22
+---------------------------------------------------------
+Enrolador: Noá
+Objeto: Veneza
+Quantidade: 24
+Valor unitário: R$ 8.00
+Valor Total: R$ 192.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

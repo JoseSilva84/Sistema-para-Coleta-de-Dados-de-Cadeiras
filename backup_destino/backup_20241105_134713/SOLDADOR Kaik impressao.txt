@@ -1,0 +1,247 @@
+
+---------------------------------------------------------
+Data: quarta-feira, 11 de setembro de 2024 20:24
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Veneza
+Quantidade: 100
+Valor unit�rio: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 15 de setembro de 2024 21:09
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Ccomum
+Quantidade: 80
+Valor unit�rio: R$ 1.00
+Valor Total: R$ 80.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 11:26
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Veneza
+Quantidade: 100
+Valor unitário: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 12:31
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Veneza
+Quantidade: 40
+Valor unitário: R$ 1.50
+Valor Total: R$ 60.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 14:31
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Veneza
+Quantidade: 48
+Valor unitário: R$ 1.50
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quarta-feira, 25 de setembro de 2024 12:55
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Banqueta
+Quantidade: 120
+Valor unitário: R$ 1.00
+Valor Total: R$ 120.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 29 de setembro de 2024 15:09
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Mesabistrô
+Quantidade: 20
+Valor unitário: R$ 2.50
+Valor Total: R$ 50.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: segunda-feira, 07 de outubro de 2024 14:57
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Karina
+Quantidade: 100
+Valor unitário: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 08 de outubro de 2024 10:45
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Cluxo
+Quantidade: 37
+Valor unitário: R$ 0.80
+Valor Total: R$ 29.60
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 08:59
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Veneza
+Quantidade: 52
+Valor unitário: R$ 1.50
+Valor Total: R$ 78.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 09:08
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Veneza
+Quantidade: 16
+Valor unitário: R$ 1.50
+Valor Total: R$ 24.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 09:13
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Cluxo
+Quantidade: 10
+Valor unitário: R$ 0.80
+Valor Total: R$ 8.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 14:44
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Veneza
+Quantidade: 48
+Valor unitário: R$ 1.50
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 14:49
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Cletícia
+Quantidade: 12
+Valor unitário: R$ 0.80
+Valor Total: R$ 9.60
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:13
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Letícia
+Quantidade: 20
+Valor unitário: R$ 2.00
+Valor Total: R$ 40.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:25
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Banqueta
+Quantidade: 20
+Valor unitário: R$ 1.00
+Valor Total: R$ 20.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:19
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Balanço
+Quantidade: 12
+Valor unitário: R$ 2.50
+Valor Total: R$ 30.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:32
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Veneza
+Quantidade: 12
+Valor unitário: R$ 1.50
+Valor Total: R$ 18.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 22 de outubro de 2024 20:51
+---------------------------------------------------------
+Soldador: Kaik
+Objeto: Letícia
+Quantidade: 120
+Valor unitário: R$ 1.50
+Valor Total: R$ 180.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+

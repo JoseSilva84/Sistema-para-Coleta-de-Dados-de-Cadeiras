@@ -1,0 +1,208 @@
+
+---------------------------------------------------------
+Data: domingo, 15 de setembro de 2024 16:23
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Banqueta
+Quantidade: 60
+Valor unit�rio: R$ 1.00
+Valor Total: R$ 60.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 15 de setembro de 2024 22:33
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Veneza
+Quantidade: 100
+Valor unit�rio: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 08:46
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Veneza
+Quantidade: 70
+Valor unitário: R$ 1.50
+Valor Total: R$ 105.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 14:31
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Veneza
+Quantidade: 72
+Valor unitário: R$ 1.50
+Valor Total: R$ 108.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 22 de setembro de 2024 11:14
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Veneza
+Quantidade: 100
+Valor unitário: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 26 de setembro de 2024 11:05
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Karina
+Quantidade: 100
+Valor unitário: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 01 de outubro de 2024 13:18
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Mesabistrô
+Quantidade: 12
+Valor unitário: R$ 2.50
+Valor Total: R$ 30.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: sexta-feira, 11 de outubro de 2024 14:49
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Cadeirapreguiçosa
+Quantidade: 20
+Valor unitário: R$ 4.00
+Valor Total: R$ 80.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 14:51
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Veneza
+Quantidade: 100
+Valor unitário: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:26
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Veneza
+Quantidade: 24
+Valor unitário: R$ 1.50
+Valor Total: R$ 36.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:35
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Letícia
+Quantidade: 24
+Valor unitário: R$ 1.50
+Valor Total: R$ 36.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:22
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Cluxo
+Quantidade: 60
+Valor unitário: R$ 0.80
+Valor Total: R$ 48.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:28
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Banqueta
+Quantidade: 24
+Valor unitário: R$ 1.00
+Valor Total: R$ 24.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:33
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Ccomum
+Quantidade: 10
+Valor unitário: R$ 0.70
+Valor Total: R$ 7.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 21:11
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Banqueta
+Quantidade: 40
+Valor unitário: R$ 1.20
+Valor Total: R$ 48.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 22 de outubro de 2024 20:49
+---------------------------------------------------------
+Soldador: Francisco
+Objeto: Veneza
+Quantidade: 100
+Valor unitário: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+

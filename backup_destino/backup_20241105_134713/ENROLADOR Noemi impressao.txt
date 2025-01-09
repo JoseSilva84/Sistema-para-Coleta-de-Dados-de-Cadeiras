@@ -1,0 +1,91 @@
+
+---------------------------------------------------------
+Data: quinta-feira, 05 de setembro de 2024 11:54
+---------------------------------------------------------
+Enrolador: Noemi
+Objeto: Veneza
+Quantidade: 20
+Valor unitário: R$ 8.00
+Valor Total: R$ 160.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 10 de setembro de 2024 21:11
+---------------------------------------------------------
+Enrolador: Noemi
+Objeto: Banqueta
+Quantidade: 12
+Valor unitário: R$ 6.00
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 13:09
+---------------------------------------------------------
+Enrolador: Noemi
+Objeto: Veneza
+Quantidade: 20
+Valor unitário: R$ 8.00
+Valor Total: R$ 160.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: sexta-feira, 20 de setembro de 2024 10:21
+---------------------------------------------------------
+Enrolador: Noemi
+Objeto: Veneza
+Quantidade: 12
+Valor unitário: R$ 8.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: sexta-feira, 20 de setembro de 2024 10:49
+---------------------------------------------------------
+Enrolador: Noemi
+Objeto: Banqueta
+Quantidade: 12
+Valor unitário: R$ 6.00
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quarta-feira, 25 de setembro de 2024 12:56
+---------------------------------------------------------
+Enrolador: Noemi
+Objeto: Veneza
+Quantidade: 48
+Valor unitário: R$ 8.00
+Valor Total: R$ 384.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:34
+---------------------------------------------------------
+Enrolador: Noemi
+Objeto: Ccomum
+Quantidade: 32
+Valor unitário: R$ 3.50
+Valor Total: R$ 112.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

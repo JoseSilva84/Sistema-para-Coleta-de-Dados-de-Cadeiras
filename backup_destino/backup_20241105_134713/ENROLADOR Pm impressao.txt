@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: segunda-feira, 02 de setembro de 2024 21:11
+---------------------------------------------------------
+Enrolador: Pm
+Objeto: Ccomum
+Quantidade: 12
+Valor unit·rio: R$ 3.00
+Valor Total: R$ 36.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 21:07
+---------------------------------------------------------
+Enrolador: Pm
+Objeto: Banqueta
+Quantidade: 16
+Valor unit√°rio: R$ 6.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

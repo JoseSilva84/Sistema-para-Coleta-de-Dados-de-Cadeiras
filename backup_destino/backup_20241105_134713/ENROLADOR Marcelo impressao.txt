@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 03 de setembro de 2024 21:48
+---------------------------------------------------------
+Enrolador: Marcelo
+Objeto: Banqueta
+Quantidade: 20
+Valor unitário: R$ 6.00
+Valor Total: R$ 120.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 15 de outubro de 2024 21:26
+---------------------------------------------------------
+Enrolador: Marcelo
+Objeto: Veneza
+Quantidade: 24
+Valor unitário: R$ 8.00
+Valor Total: R$ 192.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

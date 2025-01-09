@@ -1,0 +1,39 @@
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 03 de setembro de 2024 23:20
+---------------------------------------------------------
+Enrolador: Carlos
+Objeto: Veneza
+Quantidade: 12
+Valor unitário: R$ 8.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 05 de setembro de 2024 18:01
+---------------------------------------------------------
+Enrolador: Carlos
+Objeto: Veneza
+Quantidade: 70
+Valor unitário: R$ 8.00
+Valor Total: R$ 560.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 29 de outubro de 2024 15:03
+---------------------------------------------------------
+Enrolador: Carlos
+Objeto: Veneza
+Quantidade: 40
+Valor unitário: R$ 8.00
+Valor Total: R$ 320.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

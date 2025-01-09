@@ -1,0 +1,91 @@
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 17 de setembro de 2024 10:51
+---------------------------------------------------------
+Enrolador: Vé
+Objeto: Veneza
+Quantidade: 12
+Valor unitário: R$ 8.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 17 de setembro de 2024 10:51
+---------------------------------------------------------
+Enrolador: Vé
+Objeto: Banqueta
+Quantidade: 4
+Valor unitário: R$ 6.00
+Valor Total: R$ 24.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 17 de setembro de 2024 11:47
+---------------------------------------------------------
+Enrolador: Vé
+Objeto: Banqueta
+Quantidade: 12
+Valor unitário: R$ 6.00
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 17 de setembro de 2024 11:51
+---------------------------------------------------------
+Enrolador: Vé
+Objeto: Veneza
+Quantidade: 20
+Valor unitário: R$ 8.00
+Valor Total: R$ 160.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terça-feira, 17 de setembro de 2024 11:55
+---------------------------------------------------------
+Enrolador: V�
+Objeto: Ccomum
+Quantidade: 10
+Valor unit�rio: R$ 3.00
+Valor Total: R$ 30.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terça-feira, 17 de setembro de 2024 11:56
+---------------------------------------------------------
+Enrolador: V�
+Objeto: Let�cia
+Quantidade: 12
+Valor unit�rio: R$ 7.00
+Valor Total: R$ 84.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 17 de setembro de 2024 11:57
+---------------------------------------------------------
+Enrolador: Vé
+Objeto: Letícia
+Quantidade: 20
+Valor unitário: R$ 7.00
+Valor Total: R$ 140.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

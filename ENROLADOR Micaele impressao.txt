@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: quarta-feira, 04 de setembro de 2024 11:28
+---------------------------------------------------------
+Enrolador: Micaele
+Objeto: Banqueta
+Quantidade: 12
+Valor unitário: R$ 6.00
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: segunda-feira, 16 de setembro de 2024 21:07
+---------------------------------------------------------
+Enrolador: Micaele
+Objeto: Cluxo
+Quantidade: 12
+Valor unitário: R$ 4.00
+Valor Total: R$ 48.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

@@ -1,0 +1,52 @@
+
+---------------------------------------------------------
+Data: quinta-feira, 05 de setembro de 2024 09:24
+---------------------------------------------------------
+Enrolador: Leandro
+Objeto: Banqueta
+Quantidade: 12
+Valor unitário: R$ 6.00
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: segunda-feira, 16 de setembro de 2024 20:22
+---------------------------------------------------------
+Enrolador: Leandro
+Objeto: Veneza
+Quantidade: 6
+Valor unitário: R$ 8.00
+Valor Total: R$ 48.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 17:42
+---------------------------------------------------------
+Enrolador: Leandro
+Objeto: Veneza
+Quantidade: 8
+Valor unitário: R$ 8.00
+Valor Total: R$ 64.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 17:43
+---------------------------------------------------------
+Enrolador: Leandro
+Objeto: Balanço
+Quantidade: 10
+Valor unitário: R$ 8.00
+Valor Total: R$ 80.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

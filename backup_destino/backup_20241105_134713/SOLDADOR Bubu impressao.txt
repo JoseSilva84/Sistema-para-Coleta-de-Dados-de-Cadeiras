@@ -1,0 +1,104 @@
+
+---------------------------------------------------------
+Data: quinta-feira, 12 de setembro de 2024 20:18
+---------------------------------------------------------
+Soldador: Bubu
+Objeto: Veneza
+Quantidade: 70
+Valor unit�rio: R$ 1.50
+Valor Total: R$ 105.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: sexta-feira, 20 de setembro de 2024 16:18
+---------------------------------------------------------
+Soldador: Bubu
+Objeto: Veneza
+Quantidade: 70
+Valor unitário: R$ 1.50
+Valor Total: R$ 105.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:12
+---------------------------------------------------------
+Soldador: Bubu
+Objeto: Karina
+Quantidade: 80
+Valor unitário: R$ 1.20
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:18
+---------------------------------------------------------
+Soldador: Bubu
+Objeto: Veneza
+Quantidade: 24
+Valor unitário: R$ 1.50
+Valor Total: R$ 36.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:32
+---------------------------------------------------------
+Soldador: Bubu
+Objeto: Veneza
+Quantidade: 80
+Valor unitário: R$ 1.50
+Valor Total: R$ 120.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:36
+---------------------------------------------------------
+Soldador: Bubu
+Objeto: Veneza
+Quantidade: 10
+Valor unitário: R$ 1.50
+Valor Total: R$ 15.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:37
+---------------------------------------------------------
+Soldador: Bubu
+Objeto: Veneza
+Quantidade: 10
+Valor unitário: R$ 2.50
+Valor Total: R$ 25.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:28
+---------------------------------------------------------
+Soldador: Bubu
+Objeto: Veneza
+Quantidade: 12
+Valor unitário: R$ 1.50
+Valor Total: R$ 18.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+

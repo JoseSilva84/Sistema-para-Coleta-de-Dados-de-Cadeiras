@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: domingo, 15 de setembro de 2024 20:51
+---------------------------------------------------------
+Enrolador: Maria
+Objeto: Mesa
+Quantidade: 2
+Valor unitário: R$ 14.00
+Valor Total: R$ 28.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 15 de setembro de 2024 20:52
+---------------------------------------------------------
+Enrolador: Maria
+Objeto: Mesa
+Quantidade: 2
+Valor unitário: R$ 14.00
+Valor Total: R$ 28.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

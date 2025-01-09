@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: domingo, 15 de setembro de 2024 22:22
+---------------------------------------------------------
+Enrolador: Raniel
+Objeto: Veneza
+Quantidade: 50
+Valor unitário: R$ 8.00
+Valor Total: R$ 400.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 15 de setembro de 2024 22:38
+---------------------------------------------------------
+Enrolador: Raniel
+Objeto: Veneza
+Quantidade: 12
+Valor unitário: R$ 8.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

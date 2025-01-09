@@ -1,0 +1,13 @@
+
+---------------------------------------------------------
+Data: domingo, 29 de setembro de 2024 15:09
+---------------------------------------------------------
+Enrolador: Lourdes
+Objeto: Banqueta
+Quantidade: 40
+Valor unitário: R$ 6.50
+Valor Total: R$ 260.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

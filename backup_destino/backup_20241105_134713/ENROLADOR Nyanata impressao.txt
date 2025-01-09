@@ -1,0 +1,65 @@
+
+---------------------------------------------------------
+Data: quinta-feira, 05 de setembro de 2024 19:59
+---------------------------------------------------------
+Enrolador: Nyanata
+Objeto: Veneza
+Quantidade: 20
+Valor unitário: R$ 8.00
+Valor Total: R$ 160.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 12:41
+---------------------------------------------------------
+Enrolador: Nyanata
+Objeto: Banqueta
+Quantidade: 14
+Valor unitário: R$ 6.00
+Valor Total: R$ 84.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:21
+---------------------------------------------------------
+Enrolador: Nyanata
+Objeto: Balanço
+Quantidade: 20
+Valor unitário: R$ 9.00
+Valor Total: R$ 180.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:29
+---------------------------------------------------------
+Enrolador: Nyanata
+Objeto: Ccomum
+Quantidade: 40
+Valor unitário: R$ 3.50
+Valor Total: R$ 140.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:33
+---------------------------------------------------------
+Enrolador: Nyanata
+Objeto: Banqueta
+Quantidade: 10
+Valor unitário: R$ 6.00
+Valor Total: R$ 60.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

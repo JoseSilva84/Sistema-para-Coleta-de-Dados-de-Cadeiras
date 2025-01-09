@@ -1,0 +1,13 @@
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 09:07
+---------------------------------------------------------
+Soldador: André
+Objeto: Banqueta
+Quantidade: 10
+Valor unitário: R$ 6.00
+Valor Total: R$ 60.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+

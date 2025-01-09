@@ -1,0 +1,117 @@
+
+---------------------------------------------------------
+Data: segunda-feira, 02 de setembro de 2024 21:01
+---------------------------------------------------------
+Enrolador: Wendel
+Objeto: Veneza
+Quantidade: 40
+Valor unit�rio: R$ 7.00
+Valor Total: R$ 280.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: segunda-feira, 02 de setembro de 2024 21:36
+---------------------------------------------------------
+Enrolador: Wendel
+Objeto: Banqueta
+Quantidade: 20
+Valor unit�rio: R$ 6.00
+Valor Total: R$ 120.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 22 de setembro de 2024 10:44
+---------------------------------------------------------
+Enrolador: Wendel
+Objeto: Karina
+Quantidade: 50
+Valor unitário: R$ 7.00
+Valor Total: R$ 350.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 22 de setembro de 2024 14:03
+---------------------------------------------------------
+Enrolador: Wendel
+Objeto: Banqueta
+Quantidade: 20
+Valor unitário: R$ 6.00
+Valor Total: R$ 120.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 17 de outubro de 2024 14:20
+---------------------------------------------------------
+Enrolador: Wendel
+Objeto: Banqueta
+Quantidade: 8
+Valor unitário: R$ 8.00
+Valor Total: R$ 64.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 08:45
+---------------------------------------------------------
+Enrolador: Wendel
+Objeto: Letícia
+Quantidade: 48
+Valor unitário: R$ 8.00
+Valor Total: R$ 384.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:20
+---------------------------------------------------------
+Enrolador: Wendel
+Objeto: Veneza
+Quantidade: 12
+Valor unitário: R$ 8.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 17:29
+---------------------------------------------------------
+Enrolador: Wendel
+Objeto: Banqueta
+Quantidade: 24
+Valor unitário: R$ 6.00
+Valor Total: R$ 144.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 22 de outubro de 2024 20:48
+---------------------------------------------------------
+Enrolador: Wendel
+Objeto: Banqueta
+Quantidade: 20
+Valor unitário: R$ 6.50
+Valor Total: R$ 130.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

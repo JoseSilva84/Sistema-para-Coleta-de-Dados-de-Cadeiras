@@ -1,0 +1,78 @@
+
+---------------------------------------------------------
+Data: segunda-feira, 02 de setembro de 2024 21:02
+---------------------------------------------------------
+Enrolador: Luiz
+Objeto: Veneza
+Quantidade: 12
+Valor unit�rio: R$ 7.00
+Valor Total: R$ 84.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: segunda-feira, 02 de setembro de 2024 21:38
+---------------------------------------------------------
+Enrolador: Luiz
+Objeto: Banqueta
+Quantidade: 12
+Valor unit�rio: R$ 6.00
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 03 de setembro de 2024 19:26
+---------------------------------------------------------
+Enrolador: Luiz
+Objeto: Letícia
+Quantidade: 24
+Valor unitário: R$ 7.00
+Valor Total: R$ 168.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: quinta-feira, 19 de setembro de 2024 13:10
+---------------------------------------------------------
+Enrolador: Luiz
+Objeto: Veneza
+Quantidade: 72
+Valor unitário: R$ 8.00
+Valor Total: R$ 576.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: sexta-feira, 20 de setembro de 2024 15:00
+---------------------------------------------------------
+Enrolador: Luiz
+Objeto: Letícia
+Quantidade: 48
+Valor unitário: R$ 7.00
+Valor Total: R$ 336.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 21:08
+---------------------------------------------------------
+Enrolador: Luiz
+Objeto: Balanço
+Quantidade: 12
+Valor unitário: R$ 8.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

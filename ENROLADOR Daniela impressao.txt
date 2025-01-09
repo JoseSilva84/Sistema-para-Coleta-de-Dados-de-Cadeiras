@@ -1,0 +1,39 @@
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 03 de setembro de 2024 21:41
+---------------------------------------------------------
+Enrolador: Daniela
+Objeto: Banqueta
+Quantidade: 12
+Valor unitário: R$ 6.00
+Valor Total: R$ 72.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 17 de setembro de 2024 22:50
+---------------------------------------------------------
+Enrolador: Daniela
+Objeto: Veneza
+Quantidade: 20
+Valor unitário: R$ 8.00
+Valor Total: R$ 160.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 20 de outubro de 2024 15:32
+---------------------------------------------------------
+Enrolador: Daniela
+Objeto: Veneza
+Quantidade: 12
+Valor unitário: R$ 8.00
+Valor Total: R$ 96.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+

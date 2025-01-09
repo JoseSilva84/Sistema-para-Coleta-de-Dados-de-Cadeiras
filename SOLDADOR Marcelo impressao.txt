@@ -1,0 +1,13 @@
+
+---------------------------------------------------------
+Data: quarta-feira, 16 de outubro de 2024 10:37
+---------------------------------------------------------
+Soldador: Marcelo
+Objeto: Veneza
+Quantidade: 100
+Valor unitário: R$ 1.50
+Valor Total: R$ 150.00
+Assinatura do conferencista:_____________________________
+Assinatura do soldador:_________________________________
+---------------------------------------------------------
+

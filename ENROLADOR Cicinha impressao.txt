@@ -1,0 +1,26 @@
+
+---------------------------------------------------------
+Data: terÃ§a-feira, 03 de setembro de 2024 23:05
+---------------------------------------------------------
+Enrolador: Cicinha
+Objeto: Veneza
+Quantidade: 40
+Valor unitário: R$ 8.00
+Valor Total: R$ 320.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
+
+---------------------------------------------------------
+Data: domingo, 22 de setembro de 2024 20:33
+---------------------------------------------------------
+Enrolador: Cicinha
+Objeto: Veneza
+Quantidade: 40
+Valor unitário: R$ 8.00
+Valor Total: R$ 320.00
+Assinatura do conferencista:_____________________________
+Assinatura do enrolador:_________________________________
+---------------------------------------------------------
+
