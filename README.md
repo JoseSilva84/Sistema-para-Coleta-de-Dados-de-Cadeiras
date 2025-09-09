@@ -19,7 +19,7 @@ Combinando a praticidade do **KivyMD** para a interface gráfica e a robustez do
 
 ## 🖼️ Prévia da Interface  
 
-![Exemplo de Interface](https://via.placeholder.com/800x400.png?text=Preview+da+Interface+do+Sistema)  
+![Exemplo de Interface](https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/01.png)  
 
 ---
 
