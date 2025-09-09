@@ -19,8 +19,6 @@ Combinando a praticidade do **KivyMD** para a interface gráfica e a robustez do
 
 ## 🖼️ Prévia da Interface  
 
-*(adicione aqui prints da sua aplicação para ilustrar — exemplo abaixo)*  
-
 ![Exemplo de Interface](https://via.placeholder.com/800x400.png?text=Preview+da+Interface+do+Sistema)  
 
 ---
@@ -36,3 +34,24 @@ Combinando a praticidade do **KivyMD** para a interface gráfica e a robustez do
 
 ## 📂 Estrutura do Projeto  
 
+📦 Sistema-para-Coleta-de-Dados-de-Cadeiras
+├── assets/ # Recursos visuais (imagens, ícones, etc.)
+├── backup_destino/ # Backups automáticos gerados pelo sistema
+├── dados/ # Arquivos de entrada (txt, csv, etc.)
+│ ├── ENROLADOR_JOAO.txt
+│ ├── ENROLADOR_MARIA.txt
+│ └── ...
+├── main.py # Ponto de entrada da aplicação
+├── requirements.txt # Lista de dependências
+└── README.md # Este arquivo
+
+📦 Backup Automático
+
+Todos os arquivos .txt manipulados pelo sistema são automaticamente copiados para a pasta:
+backup_destino/
+   ├── backup_20240930_101200/
+   │   ├── ENROLADOR_JOAO.txt
+   │   └── ENROLADOR_MARIA.txt
+
+👨‍💻 Autor
+Desenvolvido por José Silva Filho
