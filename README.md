@@ -19,8 +19,25 @@ Combinando a praticidade do **KivyMD** para a interface gráfica e a robustez do
 
 ## 🖼️ Prévia da Interface  
 
-![Exemplo de Interface](https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/01.png)  
-
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/01.png)  
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/02.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/03.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/04.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/05.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/06.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/07.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/08.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/09.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/10.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/11.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/12.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/13.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/14.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/15.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/16.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/17.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/18.png)
+(https://github.com/JoseSilva84/Sistema-para-Coleta-de-Dados-de-Cadeiras/blob/main/img/19.png)
 ---
 
 ## 🛠️ Tecnologias Utilizadas  
